@@ -1,8 +1,8 @@
-package com.coderscampus.week2;
+package com.coderscampus.week1;
 
 import java.util.Scanner;
 
-public class Week2Example {
+public class Week1Example {
 
     public static void main (String [] args) {
 
@@ -20,5 +20,4 @@ public class Week2Example {
 
         scanner.close();
     }
-
 }
