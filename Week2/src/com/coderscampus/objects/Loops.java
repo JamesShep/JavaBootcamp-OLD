@@ -20,6 +20,5 @@ public class Loops {
         int j = 0;
         forExample.incrementExample2(j++);
         System.out.println("outside method j = " + j);
-
     }
 }

@@ -24,7 +24,5 @@ public class ForLoopExample {
 
     void incrementExample2 (int j) {
         System.out.println("Inside incrementExample2 method j = " + j);
-
-
     }
 }
