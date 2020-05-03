@@ -19,7 +19,7 @@ public class Lesson1Application {
 
         PackageAccessModifierExample example = new PackageAccessModifierExample();
 
-        System.out.println(example.someValue);
+        //System.out.println(example.someValue);
         System.out.println("-------------");
 
         //PhysicsTeacher castedPhysicsTeacher = (PhysicsTeacher)physicsTeacher;
