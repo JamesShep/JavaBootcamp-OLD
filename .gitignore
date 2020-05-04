@@ -40,3 +40,7 @@ Week6/.idea/.gitignore
 Week6/.idea/misc.xml
 Week6/.idea/modules.xml
 Week6/.idea/vcs.xml
+*.xml
+*.iml
+*.gitignore
+*.class
