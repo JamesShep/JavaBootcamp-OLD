@@ -29,12 +29,20 @@ public class OptionalApplication {
         BigDecimal price = cookies.getPriceOpt()
                                   .map(p -> p)
                                   .orElse(new BigDecimal(0));
-        
+
 
 /*        if (cookies.getPriceOpt().isPresent()) {
             BigDecimal price = cookies.getPriceOpt().get();
             System.out.println(price);
         }*/
-    }
 
+        cookies.setPriceOpt(new BigDecimal(20.0));
+
+        // Lesson 4
+
+        cookies.getPriceOpt()
+                .ifPresent(RecipeService::billClient);
+
+                //.ifPresent(p -> RecipeService.billClient(p));
+    }
 }
