@@ -44,3 +44,4 @@ Week6/.idea/vcs.xml
 *.iml
 *.gitignore
 *.class
+*.kotlin_module
