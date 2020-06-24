@@ -1,6 +1,6 @@
 package com.coderscampus.week9;
 
-interface CustomList<T> {
+public interface CustomList<T> {
     /**
      * This method should add a new item into the <code>CustomList</code> and should
      * return <code>true</code> if it was successfully able to insert an item.
